@@ -4,12 +4,13 @@ void main(List<String> args) {
 }
 
 class vehicle {
-  String vehiclebrand = "hyundai";
-  String vehicleyear = "2023";
+  String vehiclecolor = "matte black";
+  String vehiclemodel = "2023";
 
   void printvehicleDetails() {
     print("Vehicle Details");
-    print("vehicle name:" + this.vehiclebrand);
-    print("vehicle year:" + this.vehicleyear);
+    print("---------------");
+    print("vehicle color:" + this.vehiclecolor);
+    print("vehicle model:" + this.vehiclemodel);
   }
 }

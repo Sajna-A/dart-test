@@ -1,10 +1,5 @@
-void main() {
-  checkPalindrome("MOM") ? print("palindrome") : print("Not palindrome");
-  checkPalindrome("eye") ? print("palindrome") : print("Not palindrome");
-  checkPalindrome("money") ? print("palindrome") : print("Not palindrome");
-  checkPalindrome("window") ? print("palindrome") : print("Not palindrome");
-}
+void main(List<String> args) {
+  String a = "MOM";
 
-bool checkPalindrome(String inputString) {
-  return inputString == inputString.split("").reversed.join();
+  print(a.split('').reversed.join(''));
 }
