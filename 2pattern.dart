@@ -5,7 +5,7 @@ void main(List<String> args) {
 
   for (int i = 1; i <= row; i++) {
     for (int j = i; j <= row; j++) {
-      stdout.write("*");
+      stdout.write("* ");
     }
     stdout.write("\n");
   }
